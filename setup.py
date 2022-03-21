@@ -82,6 +82,7 @@ def _get_gpu_extra_compile_args():
 
 
 def get_extensions():
+    return []
     extensions = [
         CppExtension(
             "fast_transformers.hashing.hash_cpu",

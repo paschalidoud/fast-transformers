@@ -41,16 +41,14 @@ __all__ = [
 #       using the library even partially built, for instance.
 from ..attention import \
     FullAttention, \
-    LinearAttention, CausalLinearAttention, \
-    ClusteredAttention, ImprovedClusteredAttention, \
+    LinearAttention, \
     ReformerAttention, \
-    ExactTopKAttention, ImprovedClusteredCausalAttention, \
+    ExactTopKAttention, \
     ConditionalFullAttention
 del FullAttention, \
-    LinearAttention, CausalLinearAttention, \
-    ClusteredAttention, ImprovedClusteredAttention, \
+    LinearAttention, \
     ReformerAttention, \
-    ExactTopKAttention, ImprovedClusteredCausalAttention, \
+    ExactTopKAttention, \
     ConditionalFullAttention
 
 
